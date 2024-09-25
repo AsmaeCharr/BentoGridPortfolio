@@ -6,7 +6,7 @@
 
 body {
   height: 98vh;
-  background-color: #616161;
+  background-color: #0f0f0f;
   padding: 50px;
 }
 
@@ -35,7 +35,6 @@ h1{
   letter-spacing: 1px;
   font-weight: 500;
   text-transform: uppercase;
-  background-color: #777777;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -65,7 +64,23 @@ h1{
   }
 
   .Grid__Img {
-    background-image: url(IMG/Screenshot_20221007-204444_Gallery.jpg);
+    background-image: url(IMG/IMG_20211119_171848_785.jpg);
     background-position: top;
     background-size: cover;
+  }
+
+  .Header__Menu{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+  }
+
+  .Header__Menu li a{
+    color: #0f0f0f; 
+    text-decoration: none;
+    margin: 0 10px;
   }
