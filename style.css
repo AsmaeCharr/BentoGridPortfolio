@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 98vh;
+  background-color: #616161;
+  padding: 50px;
+}
+
+h1{
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.Container__grid {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 15px;
+
+}
+
+.Header__Title{
+
+}
+
+.Grid__div {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #777777;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Header__Container1{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;  
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.Grid__Header { 
+  padding: 0 30px;
+  display: grid; 
+  grid-auto-flow: row dense; 
+  grid-auto-columns: 1fr; 
+  grid-template-columns: 0.9fr 1.1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". ."; 
+  }
+
+  .Grid__Img {
+    background-image: url(IMG/Screenshot_20221007-204444_Gallery.jpg);
+    background-position: top;
+    background-size: cover;
+  }
