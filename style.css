@@ -4,6 +4,26 @@
   --size: 15px;
 }
 
+@font-face {
+  font-family: neptun;
+  src: url(Src/Fonts/Neptun/crate_neptune.otf);
+}
+
+@font-face {
+  font-family: geist;
+  src: url(Src/Fonts/geist-mono/GeistMono-Regular-BF65694d05471c0.otf);
+}
+
+@font-face {
+  font-family: fathan;
+  src: url(Src/Fonts/fathan-font/Fathan-DisplaySerif-BF652fce22a8698.otf);
+}
+
+@font-face {
+  font-family: quarx;
+  src: url(Src/Fonts/quarx-28818535/Quarx.otf);
+}
+
 html {
   cursor: none;
   user-select: none;
@@ -62,7 +82,7 @@ h1 {
 }
 
 .Header__Title {
-  margin-left: -35px;
+  margin-left: 10px;
 }
 
 .Grid__div {
@@ -72,8 +92,37 @@ h1 {
   text-transform: uppercase;
   border-radius: 15px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.Grid__grainBlobs {
+  background-image: url(Src/Img/Bg/BG2.png);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-position: center center;
+  background-size: 140%;
+  padding: 70px;
+}
+
+.Grid__grainBlobs h2 {
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  font-size: 400%;
+  text-transform: none;
+}
+
+.Grid__grainBlobs h2 span:last-child {
+  font-family: quarx;
+  text-transform: uppercase;
+}
+
+.Grid__grainBlobs h2 span:first-child {
+  font-family: monospace;
+}
+
+.Grid__grain {
+  background-image: url(Src/Img/Bg/Background.png);
+  background-position: center;
+  background-size: 150%;
 }
 
 .Header__Container1 {
@@ -96,10 +145,15 @@ h1 {
   gap: 0px 0px;
   grid-template-areas:
     ". .";
+  align-items: center;
+  align-content: center;
+  justify-items: stretch;
+  justify-content: space-between;
+
 }
 
 .Grid__Img {
-  background-image: url(IMG/Screenshot_20221007-204444_Gallery.jpg);
+  background-image: url(Src/Img/Extras/Screenshot_20221007-204444_Gallery.jpg);
   background-position: top;
   background-size: cover;
 }
