@@ -99,7 +99,7 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   background-position: center center;
-  background-size: 140%;
+  background-size: 120%;
   padding: 70px;
 }
 
@@ -120,9 +120,8 @@ h1 {
 }
 
 .Grid__grain {
-  background-image: url(Src/Img/Bg/Background.png);
+  background-image: url(Src/Img/Bg/bg.png);
   background-position: center;
-  background-size: 150%;
 }
 
 .Header__Container1 {
@@ -153,9 +152,9 @@ h1 {
 }
 
 .Grid__Img {
-  background-image: url(Src/Img/Extras/Screenshot_20221007-204444_Gallery.jpg);
+  background-image: url(Src/Img/Extras/Picsart_24-09-24_15-24-21-390.jpg);
   background-position: top;
-  background-size: cover;
+  background-size: 90%;
 }
 
 .Header__Menu {
